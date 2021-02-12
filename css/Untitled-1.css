@@ -1,0 +1,43 @@
+*{
+  box-sizing: border-box;
+  
+}
+
+
+body{
+  background-image: url('../photo/深林.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  /*body的块级父元素是html，如果不用background-attachment:fixed;,必须先给HTML设置宽高*/
+  background-attachment: fixed;
+  
+
+ 
+}
+
+
+.bigB{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 200px;/*缺陷很大*/
+}
+
+#icon{
+  width: 50px;
+  margin: 20px;
+    
+}
+#form{
+  margin:0px;
+}
+input:focus{
+  box-shadow: 0px 0px 5px rgb(196, 28, 65);
+}
+#register{
+  margin-top: 10px;
+}
+#login{
+  margin-top: 0px ;
+}
+ 

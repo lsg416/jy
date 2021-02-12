@@ -1,0 +1,24 @@
+*{
+    box-sizing: border-box;
+}
+.header{
+    background-color: rgb(152, 221, 24);
+    width: 100%;
+    height: 40px;
+    margin: 0px;
+    padding: auto;
+}
+#icon{
+    float: left;
+    width: 30px;
+    height: 30px;
+    margin-left: 50px;
+  
+
+}
+#commonStage{
+    float: left;
+    margin-left: 100px;
+    text-decoration: none;
+   
+}
